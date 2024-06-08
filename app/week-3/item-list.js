@@ -77,7 +77,7 @@ export default function ItemList(){
     const items = [item1, item2, item3, item4, item5, item6, item7, item8, item9, item10, item11, item12];
 
     return(
-        <main className="max-w-md mx-auto p-8">
+        <div className="max-w-md mx-auto p-8">
             <h1 className="text-white text-4xl font-bold mb-6 p-3 text-center">Shopping List</h1>
             <ul>
                 {items.map((item, index) => (
@@ -88,8 +88,6 @@ export default function ItemList(){
                     />
                 ))}
             </ul>
-            <br></br>
-            <Link className="linkStyles" href="../">Back to Root page</Link>
-        </main>
+        </div>
     );
 }
