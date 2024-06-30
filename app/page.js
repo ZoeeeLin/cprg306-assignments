@@ -12,6 +12,8 @@ export default function Home() {
       <br></br>
       <Link className="linkStyles" href="./week-5">week-5 page</Link>
       <br></br>
+      <Link className="linkStyles" href="./week-6">week-6 page</Link>
+      <br></br>
     </main>
   );
 }
